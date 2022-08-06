@@ -1,0 +1,119 @@
+/* common style  */
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* top side  */
+.top_side {
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 80px;
+}
+
+.top_title {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.top_title h1 {
+    font-size: 40px;
+}
+
+.top_title a {
+    text-decoration: none;
+    background-color: rgb(226, 77, 50);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.top_image {
+    width: 100%;
+}
+
+/* matches  */
+
+.all_match {
+    display: flex;
+    margin-bottom: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 80px;
+}
+
+.manu {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    background-color: black;
+    width: 225px;
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 230px;
+    padding: 10px;
+}
+
+
+
+.manu h3 {
+    border: 2px solid black;
+    background-color: white;
+    width: 170px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.upcoming {
+    background-color: rgb(182, 96, 81);
+}
+
+.match {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.info_box {
+    border: 1px solid rgb(184, 180, 180);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+.image img {
+    width: 40%;
+}
+
+/* footer  */
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin-top: 50px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+}
+
+hr {
+    height: 1px;
+    background-color: gray;
+    border: none;
+}
+
+footer p {
+    display: flex;
+    justify-content: space-around;
+}
